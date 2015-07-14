@@ -1,7 +1,7 @@
 ---
 layout: post
 title: jQuery 常用资源
-category: 资源
+category: Laravel
 tags: jQuery
 keywords: jQuery
 description: 
