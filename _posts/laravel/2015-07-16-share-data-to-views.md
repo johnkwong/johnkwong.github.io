@@ -12,14 +12,14 @@ published: true
 新增一個Service Provider
 <code>php artisan make:provider ViewComposerServiceProvider</code>
 Edit App/Provider/ViewComposerServiceProvider
-<code>	public function boot()
+<pre><code>	public function boot()
 	{
 		view()->composer('partials.nav', function($view) {
 		$view->with('user_email', User::find(Auth::id())->email);
 		});
-	}</code>
+	}</code></pre>
 
 Edit config/app.php
-<code>	'providers' => [
+<pre><code>	'providers' => [
 	'App\Providers\ViewComposerServiceProvider',
-	],</code>
+	],</code></pre>
