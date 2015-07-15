@@ -11,6 +11,7 @@ published: true
 ## 視圖組件(View Composer)
 新增一個Service Provider
 <code>php artisan make:provider ViewComposerServiceProvider</code>
+
 編輯 App/Provider/ViewComposerServiceProvider
 <pre><code>	public function boot()
 	{
