@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Laravel 5 常用指令
+title: [L5]視圖組件
 category: Laravel
 tags: laravel
 keywords: null
@@ -9,7 +9,7 @@ published: true
 ---
 
 ## 視圖組件(View Composer)
-
+新增一個Service Provider
 <code>php artisan make:provider ViewComposerServiceProvider</code>
 Edit App/Provider/ViewComposerServiceProvider
 <pre><code>
@@ -23,6 +23,8 @@ Edit App/Provider/ViewComposerServiceProvider
 </code></pre>
 
 Edit config/app.php
+<pre><code>
 	'providers' => [
-    'App\Providers\ViewComposerServiceProvider',
-    ],
+	'App\Providers\ViewComposerServiceProvider',
+	],
+</code></pre>
