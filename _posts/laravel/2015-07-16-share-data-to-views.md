@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 視圖組件
+title: [ L5 ]視圖組件
 category: Laravel
 tags: laravel
 keywords: null
