@@ -19,7 +19,7 @@ published: true
 		});
 	}</code></pre>
 
-Edit config/app.php
+編輯 config/app.php
 <pre><code>	'providers' => [
 	'App\Providers\ViewComposerServiceProvider',
 	],</code></pre>
