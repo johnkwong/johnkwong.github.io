@@ -1,5 +1,11 @@
 ---
-published: false
+layout: post
+title: Laravel 5 常用指令
+category: Laravel
+tags: laravel
+keywords: null
+description: null
+published: true
 ---
 
 ## 視圖組件(View Composer)
