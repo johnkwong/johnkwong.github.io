@@ -45,7 +45,7 @@ return redirect()->back()->with($parameters);</code></pre>
 
 如果你的Route帶有parameters, 也可能把parameters傳回
 <pre><code>get('book/{id}', ['as' => 'book_view', 'uses' => 'BooksController@show']);</code></pre>
-<pre><code>return redirect()->route('book_view', 1);</code>
+<pre><code>return redirect()->route('book_view', 1);</code></pre>
 如果多個parameters, 建議使用array傳回。
 <pre><code>get('book/{category}/{id}', ['as' => 'book_view', 'uses' => 'BooksController@show']);</code></pre>
 <pre><code>return redirect()->route('book_view', [513, 1]);</code></pre>
