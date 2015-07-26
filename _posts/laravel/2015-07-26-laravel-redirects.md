@@ -52,4 +52,7 @@ return redirect()->back()->with($parameters);</code></pre>
 你也可以指定不同parameters名來傳回
 <pre><code>return redirect()->route('book_view', ['category'=>513, 'id'=>1]);</code></pre>
 
+## Redirect 到 Controller那裡
+<pre><code>return redirect()->action('App\Http\Controllers\BooksController@index');</code></pre>
+<pre><code>return redirect()->action('App\Http\Controllers\BooksController@show', [1]);</code></pre>
 
