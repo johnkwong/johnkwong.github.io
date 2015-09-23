@@ -7,6 +7,8 @@ keywords: null
 description: null
 published: true
 ---
+
+
 ###  網絡層（Network Layers）
 ####  OSI七層
 當我們提到Protocol Layers大部分人都會想起OSI七層協定（Application, Presentation, Session, Transport, Network, Data Link and Physical）。但我在這篇文章主耍討論Layer 2 和 Layers 3。因為這兩個Layers令我們便認識網絡。你或者會常聽到Administrator講"this is a layer 2 device" 或 "this is a layer 3 broadcast"。看完這篇文章你將會明白他們在講什麼。
