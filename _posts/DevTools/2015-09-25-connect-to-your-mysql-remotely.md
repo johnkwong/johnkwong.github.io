@@ -1,4 +1,5 @@
-yout: post
+---
+layout: post
 title: MySQL - Connect to your database remotely
 category: DevTools
 tags: mysql
