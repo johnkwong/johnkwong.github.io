@@ -18,7 +18,7 @@ published: true
 
 DoD Model(在台灣比較多人叫做TCP/IP Model)，這個Model只是跟OSI Model有個對映而且。如以下圖表。  
 
-![alt text](https://github.com/johnkwong/johnkwong.github.io/blob/master/_posts/Linux/networklayers.png "networklayers")
+![alt text](networklayers.png "networklayers")
 
 ### 簡短介紹Physical Layer
 
