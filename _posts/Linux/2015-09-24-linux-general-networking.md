@@ -17,6 +17,9 @@ published: true
 ### DoD四層（four DoD layers）
 
 DoD Model(在台灣比較多人叫做TCP/IP Model)，這個Model只是跟OSI Model有個對映而且。如以下圖表。  
+
+![alt text](https://github.com/johnkwong/johnkwong.github.io/blob/master/_posts/Linux/networklayers.png "networklayers")
+
 ### 簡短介紹Physical Layer
 
 第一層是Physical Layer，大多我們提到的那些「電壓、電子信號和連接器」也是屬這一屠。而Repeater和hub就屬這個部分。你可以透過網絡使用軟件去看他們。而Hub就分為Passive hubs 和Active hubs ，前者只是把所有的Port連接起來，而後者還有Repeater的功用。   在一層的網絡技術例如有csma/cd或token ring 。    
